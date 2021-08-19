@@ -1,0 +1,103 @@
+{
+    "contentType": "application/vnd.microsoft.card.adaptive",
+    "content": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.2",
+        "body": [
+            {
+                "type": "ColumnSet",
+                "columns": [
+                    {
+                        "type": "Column",
+                        "horizontalAlignment": "Center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "url": "",
+                                "size": "Medium"
+                            }
+                        ],
+                        "width": 1
+                    },
+                    {
+                        "type": "Column",
+                        "horizontalAlignment": "Center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "url": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80",
+                                "size": "Medium"
+                            }
+                        ],
+                        "width": 1
+                    },
+                    {
+                        "type": "Column",
+                        "horizontalAlignment": "Center",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "url": "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80",
+                                "size": "Medium"
+                            }
+                        ],
+                        "width": 1
+                    }
+                ]
+            },
+            {
+                "type": "TextBlock",
+                "wrap": true,
+                "text": "Your Voice Drives Us Forward",
+                "spacing": "Medium",
+                "horizontalAlignment": "Center",
+                "fontType": "Default",
+                "size": "Medium",
+                "weight": "Bolder",
+                "color": "Dark"
+            },
+            {
+                "type": "TextBlock",
+                "text": "{text goes here}",
+                "wrap": true
+            },
+            {
+                "type": "TextBlock",
+                "text": "To help us better plan for what lies ahead, we need your continued input to help shape how we move forward.",
+                "wrap": true
+            },
+            {
+                "type": "ActionSet",
+                "actions": [
+                    {
+                        "type": "Action.OpenUrl",
+                        "title": "Please take 5 minutes to share your thoughts",
+                        "style": "Default",
+                        "url": "https://www.cisco.vovici.com/se.ashx?s=705E3EF77AD6CDA608D960C5800B8D8B7D"
+                    }
+                ]
+            },
+            {
+                "type": "TextBlock",
+                "text": "Thank you",
+                "wrap": true
+            },
+            {
+                "type": "TextBlock",
+                "text": "Team Listening",
+                "wrap": true,
+                "spacing": "Small"
+            },
+            {
+                "type": "TextBlock",
+                "text": "This nudge was also sent in email form, either link will take you to the same survey, choose your own adventure. Please check to make sure you are on VPN if you have any issues accessing the link. If you have any questions, you can ask for help by typing \"help\" in as a reply to this message.",
+                "wrap": true,
+                "spacing": "Medium",
+                "height": "stretch",
+                "fontType": "Default",
+                "size": "Small"
+            }
+        ]
+    }
+}
